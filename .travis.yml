@@ -1,4 +1,11 @@
 language: node_js
 node_js: node
 services:
-- mongodb 
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: QFOJ5NHPWgRiMJJzz5jdsaxaGfWz4bSC1Ixyvakei6S7FCcPeBdf0+uWCXh093LopUtrCedcOTbhK41O5dza0ZknafpKLx1S0+l5lQ5WBj53Sd4Oep7EpVEuc/f4DPX7Ki+1kmFicvv5wo3CcYL/F4krvwGZVQgIwfiQ3ms9Cg6K+H1xGcj499WvWGbu/NIkJSOJNDUWm8/VEgGZH3wWC5Tg8uOd8+8jf/fUTuHq+kn4Y75GJLVFHX8ErVeeQk1Q0I1t+z/VJlGN6kDwtMJp4Z61RqQxbP3JBYnpMh+cq3xnPMM3iuSuOTvC4KbzSz4hn4//inAT0YplU83bSFpHLdrV1ADIcZ0tYVJ/Rx3FxfqBPcBbRffGtblAdWFKIpABtGf17GtanhP67A8EoaBz83tI9nTJRWQEm3tHRBEbj+ZY9AyMJug2HZzl0wMDwvgUK4uZZw/41uekG6scJlWUhNQr7rUWYyaQc0/yQ3+CeGNGBrbzUD6CaBLyartCXUx+Nf/afBe3YDnm5lDOL5V+h69y14xmmA4u5EwABfKdYJBZzrEc0lhNBhab50a9jw2kKhwxdfVAGWRbNkbcRKUq5ZdsYCSfowHQFar23vNEPuq4ezp1MmmovPYBWzuKfEiMTQIr31h6gGUFe2PszgYB8QO+cPYsR26e+KZ8mnelGiw=
+  app: tranquil-plateau-54602
+  on:
+    repo: sollertis8/blog-app-mongoose-challenge-solution
